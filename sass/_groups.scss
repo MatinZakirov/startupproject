@@ -1,0 +1,62 @@
+#groups{
+    color: $reng;
+    margin-top:20px;
+
+    .yourGroups{
+        width: 100%;
+        .yourGroupsHead{
+            width:100%;
+            margin: 30px 0;
+            .addIcon{
+                text-align: center;
+                font-size: 20px;
+                line-height: 22px;
+                border: 1px solid $reng;
+                border-radius: 50%;
+                width: 25px;
+                height: 25px;
+                margin-left: 25px;
+            }
+            p{
+                font-size: 15px;
+            }
+            .headtext{
+                border-bottom: 1px solid gray;
+            }
+
+        }
+        .yourGroupsBody{
+            width: 100%;
+            margin-top: 50px;
+            margin: 30 auto;
+            
+            .cicleItem{
+                width: 200px;
+                margin: 0 auto;
+                height: 200px;
+                border-radius: 100%;
+                border: 1px solid $reng;
+                img{
+                    border: 1px solid;
+                    width: 95%;
+                    height: 95%;
+                    border-radius: 100%;
+                    margin: 5px;
+                }
+            }
+            .groupinfo{
+                p{
+                    font-size: 18px;
+                }
+                .groupname{
+                    border-bottom: 1px solid ;
+                    width: 30%;
+                    margin: 5px auto;
+                    height: 30px;
+                }
+            }
+
+        }
+    }
+    
+}

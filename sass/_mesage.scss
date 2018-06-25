@@ -1,0 +1,163 @@
+.mesagebox{
+    margin: 20px 0;
+    color: $reng;
+    .scrollbar::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 15px;
+	background-color: #F5F5F5;
+}
+
+.scrollbar::-webkit-scrollbar
+{
+	width: 7px;
+	background-color: #F5F5F5;
+}
+
+.scrollbar::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: $reng;
+}
+
+    .profileSide{
+        border-right: 1px solid;
+        width: 100%;
+             height: 700px;;
+            overflow-y: scroll;
+            overflow-x: hidden;
+        .profile{
+            width: 100%;
+            height: 150px;
+    
+            .profileImage{
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;
+                
+                img{
+                    border-radius: 100%;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .profileName{
+                p{
+                    font-size: 22px;
+                }
+            }
+        }
+        .media{
+            
+            .mediaImage{
+                margin-top: 20px;
+                width: 100%;
+                height: 100px;
+                border-radius: 13px;
+    
+                img{
+                    width: 100%;
+                    border-radius: 10px;
+                    height: 100%;
+                }
+            }
+    
+        }
+    }
+.mesageSide{
+
+    position: relative;
+    width: 100%;
+    height: 700px;;
+    overflow-y: auto;
+    .mesageLeft{
+        margin-top: 20px;
+        .profileImageLeft{
+            margin-top: 10px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            
+            img{
+                border-radius: 100%;
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .mesageTextLeft{
+          
+        }
+    }
+    .mesageRight{
+        margin-top: 20px;
+        margin-bottom:20px; 
+        
+        .profileImageLeft{
+            margin-top: 5px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            
+            img{
+                border-radius: 100%;
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .mesageTextLeft{
+            }
+        }
+    }
+    .createMesage{
+      
+
+        width: inherit;
+        position: relative;
+        .inputcreate{
+            width: 47.5%;
+            position: fixed;
+            right: 0;
+            bottom: 1%;
+            left: 25.5%;
+            z-index: 1030;
+        }
+          }
+
+
+
+        .mesaggingPeopleSide{
+            width: 100%;
+             height: 700px;;
+            overflow-y: scroll;
+            overflow-x: hidden;
+            
+
+            .profile{
+                margin-top: 20px;
+                width: 100%;
+                height: 80px;
+                border-bottom: 1px solid;
+        
+                .profileImage{
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    
+                    img{
+                        border-radius: 100%;
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .profileName{
+                    p{
+                        font-size: 16px;
+                        margin: 0px;
+                        padding: 0px;
+                    }
+                }
+            }
+        }
+          
+}

@@ -1,0 +1,90 @@
+#following {
+.followersSectionMyProfilePic {
+  margin-top: 20px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  padding-bottom: 10px;
+  img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+
+  }
+}
+.followersSectionMyInfoUl {
+  li:last-child {
+    border:none;
+  }
+
+  li {
+    list-style-type: none;
+    width: 120px;
+    border-bottom: 1px black solid;
+    margin-bottom: 2px;
+    text-align: center;
+    i {
+      font-size: 28px;
+      color:  $reng;
+      margin-top: 7px;
+    }
+    hr {
+      width: 80%;
+      margin-left: 0px;
+      margin: 3px;
+    }
+    span {
+      font-size: 12px;
+      text-align: center;
+      color: $reng;
+      font-weight: bold;
+
+
+
+    }
+  }
+}
+.followersSectionHeader {
+  text-align: center;
+  margin-top: 30%;
+  h1 {
+    color: $reng;
+  }
+}
+.followersSectionFollowers {
+  hr {
+    margin-top: 8px;
+    margin-bottom: 12px;
+  }
+  ul {
+    display: inline-block;
+    li {
+      list-style-type: none;
+      button {
+        color: $reng;
+        border-radius: 10px;
+        background-color: white;
+        border: 1px gray solid;
+      }
+    }
+  }
+  img {
+    width: 200px;
+    height: 200px;
+
+    border-radius: 50%;
+    margin-left: 20%;
+  }
+  span {
+    font-size: 20px;
+    color: $reng;
+    margin-bottom: 50px;
+  }
+}
+.mrg-top {
+  margin-top: 10%;
+}
+.mrg-bot {
+  margin-bottom: 50px;
+}
+}

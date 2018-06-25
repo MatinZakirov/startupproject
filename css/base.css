@@ -1,0 +1,1562 @@
+.head {
+  width: 100%;
+  background-color: #70203e; }
+  .head .navbar {
+    width: 100%; }
+
+.section {
+  padding: 40px 0 18px; }
+  .section .circle {
+    width: 500px;
+    height: 500px;
+    background-color: #70203e;
+    border-radius: 50%;
+    margin: 0 auto;
+    padding: 20px 0; }
+    .section .circle .signup {
+      position: relative; }
+      .section .circle .signup .signupHeader {
+        margin-bottom: 20px; }
+      .section .circle .signup .text-field {
+        width: 50%;
+        margin: 0 auto;
+        padding: 10px 0; }
+        .section .circle .signup .text-field input {
+          border-radius: 15px; }
+        .section .circle .signup .text-field .inputHeight {
+          padding: 5px 14px;
+          font-size: 13px;
+          color: #70203e; }
+        .section .circle .signup .text-field input[type=submit] {
+          font-size: 20px !important;
+          margin-top: 10px;
+          padding: 0 14px; }
+      .section .circle .signup .or {
+        position: relative;
+        text-align: center;
+        color: white;
+        margin-top: 10px; }
+        .section .circle .signup .or::after {
+          content: "";
+          position: absolute;
+          right: 25%;
+          top: 50%;
+          height: 2px;
+          width: 20%;
+          background-color: black; }
+        .section .circle .signup .or::before {
+          content: "";
+          position: absolute;
+          left: 25%;
+          top: 50%;
+          height: 2px;
+          width: 20%;
+          background-color: black; }
+      .section .circle .signup .iconsLogin {
+        width: 100%;
+        margin: 10px auto;
+        text-align: center;
+        font-size: 25px; }
+        .section .circle .signup .iconsLogin .iconFb {
+          display: inline-block;
+          border: 2px solid white;
+          border-radius: 50%;
+          width: 55px;
+          display: inline-block;
+          padding: 7px;
+          margin: 0 30px 0 0;
+          cursor: pointer;
+          transition: all 0.3s linear; }
+          .section .circle .signup .iconsLogin .iconFb:hover {
+            background-color: white; }
+            .section .circle .signup .iconsLogin .iconFb:hover i {
+              color: #3b5998; }
+          .section .circle .signup .iconsLogin .iconFb a {
+            text-decoration: none; }
+            .section .circle .signup .iconsLogin .iconFb a i {
+              color: white; }
+        .section .circle .signup .iconsLogin .iconG {
+          display: inline-block;
+          border: 2px solid white;
+          border-radius: 50%;
+          width: 55px;
+          display: inline-block;
+          padding: 7px;
+          cursor: pointer;
+          transition: all 0.3s linear; }
+          .section .circle .signup .iconsLogin .iconG:hover {
+            background-color: white; }
+            .section .circle .signup .iconsLogin .iconG:hover i {
+              color: #dd4b39; }
+          .section .circle .signup .iconsLogin .iconG a {
+            text-decoration: none; }
+            .section .circle .signup .iconsLogin .iconG a i {
+              color: white; }
+
+/*=======Responsive========*/
+@media screen and (max-width: 550px) {
+  .circle {
+    width: 100% !important;
+    border-radius: 6px !important; }
+    .circle .text-field {
+      width: 100% !important; }
+      .circle .text-field .inputHeight {
+        width: 85% !important;
+        text-align: center;
+        margin: 0 auto; }
+
+  .container-fluid {
+    padding: 0; } }
+.navigationBar {
+  background-color: #70203e; }
+  .navigationBar .submitSearchBtn {
+    background-color: white;
+    border-left: 0;
+    margin-left: -5%;
+    width: 100%;
+    padding-left: 5px;
+    height: 33px;
+    border: 0;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-right: 10px; }
+  .navigationBar .navbarSearchForm {
+    width: 45%;
+    float: left; }
+  .navigationBar .searchGroup {
+    width: 100%; }
+    .navigationBar .searchGroup a {
+      text-decoration: none;
+      cursor: pointer;
+      color: #70203e;
+      width: 30px;
+      height: 30px; }
+  .navigationBar .searchInput {
+    padding: 5px 14px;
+    font-size: 13px;
+    color: #70203e;
+    border-radius: 15px;
+    border: 0; }
+  .navigationBar .navbarIcons {
+    float: right;
+    margin-top: 7px; }
+    .navigationBar .navbarIcons .navbarIcon {
+      font-size: 20px;
+      margin-left: 15px;
+      text-decoration: none;
+      color: white; }
+    .navigationBar .navbarIcons .navbarIconDiv {
+      float: left;
+      cursor: pointer; }
+      .navigationBar .navbarIcons .navbarIconDiv .navbarDropdownForProfile {
+        float: left;
+        width: 180px;
+        height: 230px;
+        left: -116px;
+        top: 40px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-top: 0;
+        background-color: #70203e; }
+        .navigationBar .navbarIcons .navbarIconDiv .navbarDropdownForProfile hr {
+          margin-bottom: 0;
+          margin-top: 0;
+          background-color: white; }
+        .navigationBar .navbarIcons .navbarIconDiv .navbarDropdownForProfile .dropdown-item .profileSpan {
+          font-size: 18px;
+          color: white;
+          margin-left: 20px;
+          position: relative;
+          top: 3px; }
+        .navigationBar .navbarIcons .navbarIconDiv .navbarDropdownForProfile .dropdown-item:hover {
+          background-color: #70203e; }
+        .navigationBar .navbarIcons .navbarIconDiv .navbarDropdownForProfile .profileIconContainer {
+          width: 35px;
+          height: 35px;
+          border-radius: 50%;
+          float: left;
+          margin-left: 0px; }
+          .navigationBar .navbarIcons .navbarIconDiv .navbarDropdownForProfile .profileIconContainer i {
+            font-size: 22px;
+            margin-left: 5px;
+            position: relative;
+            top: 6px;
+            color: white; }
+        .navigationBar .navbarIcons .navbarIconDiv .navbarDropdownForProfile .profileLogoContainer {
+          width: 35px;
+          height: 35px;
+          border-radius: 50%;
+          float: left;
+          margin-left: 0px; }
+          .navigationBar .navbarIcons .navbarIconDiv .navbarDropdownForProfile .profileLogoContainer .profileImage {
+            border-radius: 50%; }
+        .navigationBar .navbarIcons .navbarIconDiv .navbarDropdownForProfile .profileLink {
+          height: 40px;
+          padding-left: 15px; }
+      .navigationBar .navbarIcons .navbarIconDiv .navbarDropdown {
+        overflow-y: scroll;
+        float: left;
+        width: 400px;
+        height: 230px;
+        left: -365px;
+        top: 40px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-top: 0;
+        background-color: #70203e; }
+        .navigationBar .navbarIcons .navbarIconDiv .navbarDropdown .dropdown-item:hover {
+          background-color: #70203e; }
+        .navigationBar .navbarIcons .navbarIconDiv .navbarDropdown .navbarDropdownHeader {
+          margin-bottom: 5px;
+          height: 20px;
+          margin-left: 5px; }
+          .navigationBar .navbarIcons .navbarIconDiv .navbarDropdown .navbarDropdownHeader p {
+            font-weight: bold;
+            color: white;
+            margin-top: 5px; }
+          .navigationBar .navbarIcons .navbarIconDiv .navbarDropdown .navbarDropdownHeader span {
+            width: 50px;
+            height: 50px; }
+        .navigationBar .navbarIcons .navbarIconDiv .navbarDropdown hr {
+          margin-bottom: 0;
+          margin-top: 0; }
+        .navigationBar .navbarIcons .navbarIconDiv .navbarDropdown .notificationContainer {
+          padding-top: 4px;
+          padding-bottom: 10px;
+          padding-right: 5px;
+          width: 100%;
+          color: white;
+          height: 58px; }
+          .navigationBar .navbarIcons .navbarIconDiv .navbarDropdown .notificationContainer .nameAndTimeContainer {
+            margin-left: 10px;
+            height: 100%;
+            float: left;
+            margin-left: 10px; }
+            .navigationBar .navbarIcons .navbarIconDiv .navbarDropdown .notificationContainer .nameAndTimeContainer span {
+              font-size: 16px; }
+            .navigationBar .navbarIcons .navbarIconDiv .navbarDropdown .notificationContainer .nameAndTimeContainer .time {
+              font-size: 14px; }
+          .navigationBar .navbarIcons .navbarIconDiv .navbarDropdown .notificationContainer .nameContainerForMessages {
+            margin-left: 10px;
+            float: left;
+            margin-left: 10px; }
+            .navigationBar .navbarIcons .navbarIconDiv .navbarDropdown .notificationContainer .nameContainerForMessages span {
+              font-size: 16px; }
+          .navigationBar .navbarIcons .navbarIconDiv .navbarDropdown .notificationContainer .time {
+            font-size: 11px;
+            float: right;
+            position: relative;
+            top: 14px; }
+          .navigationBar .navbarIcons .navbarIconDiv .navbarDropdown .notificationContainer .nameContainerForRequests {
+            margin-left: 10px;
+            height: 100%;
+            float: left;
+            margin-left: 10px; }
+            .navigationBar .navbarIcons .navbarIconDiv .navbarDropdown .notificationContainer .nameContainerForRequests span {
+              font-size: 14px;
+              position: relative;
+              top: 12px; }
+          .navigationBar .navbarIcons .navbarIconDiv .navbarDropdown .notificationContainer .notification {
+            word-break: break-all;
+            font-size: 13px;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            padding-left: 10px;
+            padding-top: 4px; }
+          .navigationBar .navbarIcons .navbarIconDiv .navbarDropdown .notificationContainer .message {
+            width: 280px;
+            word-break: break-all;
+            font-size: 12px;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            padding-left: 10px;
+            padding-top: 4px;
+            float: left; }
+          .navigationBar .navbarIcons .navbarIconDiv .navbarDropdown .notificationContainer .timeContainer {
+            float: left; }
+          .navigationBar .navbarIcons .navbarIconDiv .navbarDropdown .notificationContainer .profileImageContainer {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            float: left;
+            margin-left: 5px; }
+            .navigationBar .navbarIcons .navbarIconDiv .navbarDropdown .notificationContainer .profileImageContainer .profileImage {
+              border-radius: 50%; }
+    .navigationBar .navbarIcons .dropdown-toggle::after {
+      display: none; }
+    .navigationBar .navbarIcons .notificationSeeAllBtn {
+      position: absolute;
+      top: 255px;
+      width: 398px;
+      left: -364px;
+      z-index: 1000;
+      border: 0;
+      background-color: #70203e;
+      color: white;
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+      display: none; }
+    .navigationBar .navbarIcons .requestsSeeAllBtn {
+      position: absolute;
+      top: 255px;
+      width: 398px;
+      left: -364px;
+      z-index: 1000;
+      border: 0;
+      background-color: #70203e;
+      color: white;
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+      display: none; }
+    .navigationBar .navbarIcons .messagesSeeAllBtn {
+      position: absolute;
+      top: 255px;
+      width: 398px;
+      left: -364px;
+      z-index: 1000;
+      border: 0;
+      background-color: #70203e;
+      color: white;
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+      display: none; }
+    .navigationBar .navbarIcons .requestControl {
+      position: relative;
+      top: 10px;
+      margin-left: 20px;
+      color: #70203e;
+      border-radius: 15px;
+      border: 0;
+      font-size: 13px; }
+
+#groupTimeline {
+  margin-top: 82px;
+  position: relative;
+  color: #70203e;
+  padding: 25px 0 30px; }
+  #groupTimeline a {
+    color: #70203e;
+    text-decoration: none; }
+  #groupTimeline .row {
+    margin-left: 0;
+    margin-right: 0; }
+    #groupTimeline .row #sidebar {
+      position: fixed; }
+      #groupTimeline .row #sidebar .groupImage {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 1px solid #70203e;
+        margin: 0 24%; }
+        #groupTimeline .row #sidebar .groupImage .bos {
+          width: 92px;
+          height: 92px;
+          margin: 3px;
+          border-radius: 50%;
+          background: url("../img/profile.jpg");
+          background-size: cover; }
+        #groupTimeline .row #sidebar .groupImage .more .dropright .dropdown-toggle::after {
+          display: none; }
+        #groupTimeline .row #sidebar .groupImage .more .dropright .dropdown-menu {
+          position: relative;
+          min-width: 75px;
+          padding: 0;
+          border-radius: 8px;
+          border: 1px solid #70203e;
+          box-shadow: 5px 5px 10px #888; }
+          #groupTimeline .row #sidebar .groupImage .more .dropright .dropdown-menu .leave {
+            text-align: right;
+            width: 50px;
+            margin-left: 20px; }
+          #groupTimeline .row #sidebar .groupImage .more .dropright .dropdown-menu .iconLeave {
+            position: absolute;
+            top: 30%;
+            padding: 0 10px; }
+            #groupTimeline .row #sidebar .groupImage .more .dropright .dropdown-menu .iconLeave i {
+              color: #70203e;
+              font-size: 18px;
+              transform: rotate(90deg); }
+        #groupTimeline .row #sidebar .groupImage .more button {
+          border: none;
+          position: absolute;
+          top: -20px;
+          right: -100px;
+          background-color: white;
+          padding: 0;
+          line-height: 0; }
+          #groupTimeline .row #sidebar .groupImage .more button i {
+            color: #70203e; }
+        #groupTimeline .row #sidebar .groupImage .more .btn:focus {
+          box-shadow: none; }
+    #groupTimeline .row .textContent {
+      padding: 5px 24px; }
+      #groupTimeline .row .textContent span:nth-child(1) {
+        margin-top: 30px;
+        font-weight: bold;
+        font-size: 16px; }
+      #groupTimeline .row .textContent span {
+        margin-bottom: 20px;
+        border-bottom: 1px solid #70203e;
+        font-weight: 600;
+        font-size: 14px; }
+      #groupTimeline .row .textContent span:nth-child(4) {
+        font-weight: bold;
+        font-size: 16px;
+        margin: 35px 0 25px; }
+    #groupTimeline .row #content {
+      margin-left: 250px; }
+      #groupTimeline .row #content .line {
+        border-bottom: 1px solid; }
+      #groupTimeline .row #content .contentHead {
+        border-bottom: 1px solid;
+        margin: 0 0 70px;
+        padding: 5px 10px; }
+        #groupTimeline .row #content .contentHead form label[for=think] {
+          margin-bottom: 0 !important; }
+        #groupTimeline .row #content .contentHead form .btn {
+          padding: 0;
+          margin-bottom: 16px; }
+        #groupTimeline .row #content .contentHead form .files {
+          visibility: hidden;
+          width: 0; }
+        #groupTimeline .row #content .contentHead form textarea {
+          border: none;
+          color: #70203e;
+          outline: none;
+          resize: none; }
+          #groupTimeline .row #content .contentHead form textarea:focus {
+            outline: none; }
+        #groupTimeline .row #content .contentHead form textarea::placeholder {
+          color: #70203e;
+          padding-top: 74px;
+          font-weight: bold; }
+        #groupTimeline .row #content .contentHead a {
+          color: #70203e;
+          text-decoration: none; }
+        #groupTimeline .row #content .contentHead i {
+          padding-right: 10px; }
+      #groupTimeline .row #content .contentBorder {
+        border: 1px solid;
+        border-radius: 15px;
+        padding: 20px 0 30px; }
+        #groupTimeline .row #content .contentBorder .profile {
+          margin-left: 20px;
+          margin-right: 20px; }
+          #groupTimeline .row #content .contentBorder .profile .profileImage {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: url("../img/profile.jpg");
+            background-size: cover;
+            border: 1px solid grey; }
+          #groupTimeline .row #content .contentBorder .profile .profileName {
+            padding-left: 15px; }
+            #groupTimeline .row #content .contentBorder .profile .profileName .name {
+              margin-bottom: 5px;
+              font-weight: bold; }
+            #groupTimeline .row #content .contentBorder .profile .profileName .date {
+              font-size: 13px; }
+        #groupTimeline .row #content .contentBorder .profileHead {
+          padding: 15px 0;
+          margin-left: 20px;
+          margin-right: 20px; }
+        #groupTimeline .row #content .contentBorder .carousel .carousel-indicators li {
+          width: 10px;
+          height: 10px;
+          border-radius: 50%; }
+          #groupTimeline .row #content .contentBorder .carousel .carousel-indicators li:hover {
+            cursor: pointer; }
+        #groupTimeline .row #content .contentBorder .likeShare {
+          margin-left: 20px;
+          margin-right: 20px;
+          padding-top: 15px; }
+          #groupTimeline .row #content .contentBorder .likeShare a {
+            color: #70203e;
+            text-decoration: none; }
+          #groupTimeline .row #content .contentBorder .likeShare .like {
+            margin-right: 25px; }
+            #groupTimeline .row #content .contentBorder .likeShare .like .iconLike {
+              border: 2px solid #70203e;
+              width: 30px;
+              height: 30px;
+              border-radius: 50%; }
+              #groupTimeline .row #content .contentBorder .likeShare .like .iconLike i {
+                padding-left: 5px;
+                padding-top: 6px; }
+          #groupTimeline .row #content .contentBorder .likeShare .iconShare i {
+            padding-left: 4.5px;
+            transform: rotate(180deg); }
+        #groupTimeline .row #content .contentBorder .commentBlock {
+          margin-left: 20px;
+          margin-right: 20px;
+          padding: 0 15px; }
+          #groupTimeline .row #content .contentBorder .commentBlock .commentInput {
+            margin-bottom: 15px; }
+            #groupTimeline .row #content .contentBorder .commentBlock .commentInput .text-field {
+              margin: 0 auto;
+              padding: 10px 0; }
+              #groupTimeline .row #content .contentBorder .commentBlock .commentInput .text-field .inputHeight {
+                padding: 5px 14px;
+                font-size: 13px;
+                color: #70203e;
+                border-radius: 15px; }
+          #groupTimeline .row #content .contentBorder .commentBlock .comments .profileImage {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: url("../img/profile.jpg");
+            background-size: cover;
+            border: 1px solid grey; }
+          #groupTimeline .row #content .contentBorder .commentBlock .comments .profileName {
+            padding-top: 15px;
+            padding-left: 0; }
+          #groupTimeline .row #content .contentBorder .commentBlock .comments .comment {
+            margin-top: 15px; }
+            #groupTimeline .row #content .contentBorder .commentBlock .comments .comment p {
+              line-height: 20px; }
+    #groupTimeline .row .friendChat {
+      position: fixed;
+      right: 225px;
+      width: 294px;
+      bottom: 0;
+      display: none;
+      margin: 0 auto;
+      height: 377px; }
+      #groupTimeline .row .friendChat .header {
+        background-color: #70203e;
+        padding: 12px 0 12px 7px; }
+        #groupTimeline .row .friendChat .header .buttons {
+          margin-left: 44px; }
+          #groupTimeline .row .friendChat .header .buttons button {
+            border: none;
+            background-color: #70203e;
+            color: white;
+            cursor: pointer;
+            padding: 0 2px; }
+            #groupTimeline .row .friendChat .header .buttons button:focus {
+              outline: none; }
+      #groupTimeline .row .friendChat .chat .scrollbar {
+        height: 250px;
+        background: #fff;
+        overflow-y: scroll;
+        padding-bottom: 25px;
+        padding-left: 8px;
+        padding-right: 8px; }
+      #groupTimeline .row .friendChat .chat .force-overflow {
+        min-height: 250px; }
+      #groupTimeline .row .friendChat .chat .scrollbar-primary::-webkit-scrollbar {
+        width: 10px;
+        background-color: #c5c5c5; }
+      #groupTimeline .row .friendChat .chat .scrollbar-primary::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+        background-color: #70203e; }
+      #groupTimeline .row .friendChat .chat .messageBlock .messageProfileMyself {
+        padding: 15px 0 0 0; }
+        #groupTimeline .row .friendChat .chat .messageBlock .messageProfileMyself .col-md-2 {
+          padding: 0;
+          padding-left: 10px; }
+        #groupTimeline .row .friendChat .chat .messageBlock .messageProfileMyself .profileImage {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%; }
+          #groupTimeline .row .friendChat .chat .messageBlock .messageProfileMyself .profileImage img {
+            width: 100%;
+            border-radius: 50%;
+            text-align: center; }
+        #groupTimeline .row .friendChat .chat .messageBlock .messageProfileMyself .message {
+          padding: 0 8px; }
+          #groupTimeline .row .friendChat .chat .messageBlock .messageProfileMyself .message span {
+            font-size: 14px;
+            font-weight: bold; }
+      #groupTimeline .row .friendChat .chat .messageBlock .messageProfileHerself {
+        padding: 15px 0 0 0; }
+        #groupTimeline .row .friendChat .chat .messageBlock .messageProfileHerself .col-md-2 {
+          padding: 0; }
+        #groupTimeline .row .friendChat .chat .messageBlock .messageProfileHerself .profileImage {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%; }
+          #groupTimeline .row .friendChat .chat .messageBlock .messageProfileHerself .profileImage img {
+            width: 100%;
+            border-radius: 50%;
+            text-align: center; }
+        #groupTimeline .row .friendChat .chat .messageBlock .messageProfileHerself .message {
+          padding: 0 8px; }
+          #groupTimeline .row .friendChat .chat .messageBlock .messageProfileHerself .message span {
+            font-size: 14px;
+            font-weight: bold;
+            float: right; }
+      #groupTimeline .row .friendChat .chat .messageTextarea form textarea {
+        width: 100%;
+        color: #70203e;
+        outline: none;
+        resize: none; }
+        #groupTimeline .row .friendChat .chat .messageTextarea form textarea:focus {
+          outline: none; }
+      #groupTimeline .row .friendChat .chat .messageTextarea form textarea::placeholder {
+        color: #70203e;
+        text-align: right;
+        padding-top: 20px; }
+    #groupTimeline .row .onlineFriends {
+      position: fixed;
+      top: 0;
+      right: 0;
+      padding: 0;
+      margin: 0 auto;
+      border-bottom-left-radius: 14px;
+      border-bottom-right-radius: 14px; }
+      #groupTimeline .row .onlineFriends .scrollbar {
+        height: 661px;
+        background: #fff;
+        overflow-y: scroll;
+        padding-bottom: 25px;
+        padding-left: 8px;
+        padding-right: 8px; }
+      #groupTimeline .row .onlineFriends .force-overflow {
+        min-height: 400px; }
+      #groupTimeline .row .onlineFriends .scrollbar-primary::-webkit-scrollbar {
+        width: 10px;
+        background-color: #c5c5c5; }
+      #groupTimeline .row .onlineFriends .scrollbar-primary::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+        background-color: #70203e; }
+      #groupTimeline .row .onlineFriends .onlineFriend {
+        position: relative;
+        padding-top: 15px;
+        border-bottom: 1px solid #70203e; }
+        #groupTimeline .row .onlineFriends .onlineFriend button {
+          position: relative;
+          border: none;
+          padding: 0;
+          background: white;
+          color: #70203e;
+          font-weight: bold;
+          cursor: pointer; }
+          #groupTimeline .row .onlineFriends .onlineFriend button:focus {
+            outline: none; }
+          #groupTimeline .row .onlineFriends .onlineFriend button .profileImage {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            background: url(../img/profile.jpg);
+            background-size: cover;
+            border: 1px solid grey; }
+          #groupTimeline .row .onlineFriends .onlineFriend button .profileName {
+            position: relative;
+            bottom: 16px; }
+        #groupTimeline .row .onlineFriends .onlineFriend .profileTime {
+          position: absolute;
+          top: 28px;
+          right: 0;
+          font-size: 14px;
+          font-weight: 600; }
+
+#ladystoreTimeline {
+  color: #70203e;
+  padding: 25px 0 30px; }
+  #ladystoreTimeline a {
+    color: #70203e;
+    text-decoration: none; }
+  #ladystoreTimeline .row {
+    margin-left: 0;
+    margin-right: 0; }
+  #ladystoreTimeline #sidebar .groupImage {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #70203e;
+    margin: 0 33.3%; }
+    #ladystoreTimeline #sidebar .groupImage .bos {
+      width: 92px;
+      height: 92px;
+      margin: 3px;
+      border-radius: 50%;
+      background: url("../img/profile.jpg");
+      background-size: cover; }
+    #ladystoreTimeline #sidebar .groupImage .more .dropright .dropdown-toggle::after {
+      display: none; }
+    #ladystoreTimeline #sidebar .groupImage .more .dropright .dropdown-menu {
+      position: relative;
+      min-width: 75px;
+      padding: 0;
+      border-radius: 8px;
+      border: 1px solid #70203e;
+      box-shadow: 5px 5px 10px #888; }
+      #ladystoreTimeline #sidebar .groupImage .more .dropright .dropdown-menu .leave {
+        text-align: right;
+        width: 50px;
+        margin-left: 20px; }
+      #ladystoreTimeline #sidebar .groupImage .more .dropright .dropdown-menu .iconLeave {
+        position: absolute;
+        top: 30%;
+        padding: 0 10px; }
+        #ladystoreTimeline #sidebar .groupImage .more .dropright .dropdown-menu .iconLeave i {
+          color: #70203e;
+          font-size: 18px;
+          transform: rotate(90deg); }
+    #ladystoreTimeline #sidebar .groupImage .more button {
+      border: none;
+      position: absolute;
+      top: -20px;
+      right: -100px;
+      background-color: white;
+      padding: 0;
+      line-height: 0; }
+      #ladystoreTimeline #sidebar .groupImage .more button i {
+        color: #70203e; }
+    #ladystoreTimeline #sidebar .groupImage .more .btn:focus {
+      box-shadow: none; }
+  #ladystoreTimeline .textContent {
+    padding: 5px 24px; }
+    #ladystoreTimeline .textContent span:nth-child(1) {
+      margin-top: 30px;
+      font-weight: bold;
+      font-size: 16px; }
+    #ladystoreTimeline .textContent span {
+      margin-bottom: 20px;
+      border-bottom: 1px solid #70203e;
+      font-weight: 600;
+      font-size: 14px; }
+    #ladystoreTimeline .textContent span:nth-child(4) {
+      font-weight: bold;
+      font-size: 16px;
+      margin: 35px 0 25px; }
+  #ladystoreTimeline #content .line {
+    border-bottom: 1px solid;
+    margin: 50px 0; }
+  #ladystoreTimeline #content .contentHead {
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    margin: 70px 0;
+    padding: 5px 10px; }
+    #ladystoreTimeline #content .contentHead a {
+      color: #70203e;
+      text-decoration: none; }
+    #ladystoreTimeline #content .contentHead i {
+      padding-right: 10px; }
+  #ladystoreTimeline #content .contentBorder {
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 20px 0 30px; }
+    #ladystoreTimeline #content .contentBorder .profile {
+      margin-left: 20px;
+      margin-right: 20px; }
+      #ladystoreTimeline #content .contentBorder .profile .profileImage {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: url("../img/profile.jpg");
+        background-size: cover;
+        border: 1px solid grey; }
+      #ladystoreTimeline #content .contentBorder .profile .profileName {
+        padding-left: 15px; }
+        #ladystoreTimeline #content .contentBorder .profile .profileName .name {
+          margin-bottom: 5px;
+          font-weight: bold; }
+        #ladystoreTimeline #content .contentBorder .profile .profileName .date {
+          font-size: 13px; }
+    #ladystoreTimeline #content .contentBorder .profileHead {
+      padding: 15px 0;
+      margin-left: 20px;
+      margin-right: 20px; }
+    #ladystoreTimeline #content .contentBorder .carousel .carousel-indicators li {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%; }
+      #ladystoreTimeline #content .contentBorder .carousel .carousel-indicators li:hover {
+        cursor: pointer; }
+    #ladystoreTimeline #content .contentBorder .storeShare {
+      margin-left: 20px;
+      margin-right: 20px;
+      padding-top: 15px; }
+      #ladystoreTimeline #content .contentBorder .storeShare a {
+        color: #70203e;
+        text-decoration: none; }
+      #ladystoreTimeline #content .contentBorder .storeShare .like {
+        margin-right: 25px; }
+        #ladystoreTimeline #content .contentBorder .storeShare .like .iconStore {
+          border: 2px solid #70203e;
+          width: 30px;
+          height: 30px;
+          border-radius: 50%; }
+          #ladystoreTimeline #content .contentBorder .storeShare .like .iconStore i {
+            padding-left: 5px;
+            padding-top: 6px; }
+      #ladystoreTimeline #content .contentBorder .storeShare .iconShare i {
+        padding-left: 4.5px; }
+    #ladystoreTimeline #content .contentBorder .commentBlock {
+      margin-left: 20px;
+      margin-right: 20px;
+      padding: 0 15px; }
+      #ladystoreTimeline #content .contentBorder .commentBlock .commentInput {
+        margin-bottom: 15px; }
+        #ladystoreTimeline #content .contentBorder .commentBlock .commentInput .text-field {
+          margin: 0 auto;
+          padding: 10px 0; }
+          #ladystoreTimeline #content .contentBorder .commentBlock .commentInput .text-field .inputHeight {
+            padding: 5px 14px;
+            font-size: 13px;
+            color: #70203e;
+            border-radius: 15px; }
+      #ladystoreTimeline #content .contentBorder .commentBlock .comments .profileImage {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: url("../img/profile.jpg");
+        background-size: cover;
+        border: 1px solid grey; }
+      #ladystoreTimeline #content .contentBorder .commentBlock .comments .profileName {
+        padding-top: 15px;
+        padding-left: 0; }
+      #ladystoreTimeline #content .contentBorder .commentBlock .comments .comment {
+        margin-top: 15px; }
+        #ladystoreTimeline #content .contentBorder .commentBlock .comments .comment p {
+          line-height: 20px; }
+
+#homeTimeline {
+  color: #70203e;
+  padding: 25px 0 30px; }
+  #homeTimeline a {
+    color: #70203e;
+    text-decoration: none; }
+  #homeTimeline .row {
+    margin-left: 0;
+    margin-right: 0; }
+  #homeTimeline #sidebar .groupImage {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #70203e;
+    margin: 0 33.3%; }
+    #homeTimeline #sidebar .groupImage .bos {
+      width: 92px;
+      height: 92px;
+      margin: 3px;
+      border-radius: 50%;
+      background: url("../img/profile.jpg");
+      background-size: cover; }
+    #homeTimeline #sidebar .groupImage .more .dropright .dropdown-toggle::after {
+      display: none; }
+    #homeTimeline #sidebar .groupImage .more .dropright .dropdown-menu {
+      position: relative;
+      min-width: 75px;
+      padding: 0;
+      border-radius: 8px;
+      border: 1px solid #70203e;
+      box-shadow: 5px 5px 10px #888; }
+      #homeTimeline #sidebar .groupImage .more .dropright .dropdown-menu .leave {
+        text-align: right;
+        width: 50px;
+        margin-left: 20px; }
+      #homeTimeline #sidebar .groupImage .more .dropright .dropdown-menu .iconLeave {
+        position: absolute;
+        top: 30%;
+        padding: 0 10px; }
+        #homeTimeline #sidebar .groupImage .more .dropright .dropdown-menu .iconLeave i {
+          color: #70203e;
+          font-size: 18px;
+          transform: rotate(90deg); }
+    #homeTimeline #sidebar .groupImage .more button {
+      border: none;
+      position: absolute;
+      top: -20px;
+      right: -100px;
+      background-color: white;
+      padding: 0;
+      line-height: 0; }
+      #homeTimeline #sidebar .groupImage .more button i {
+        color: #70203e; }
+    #homeTimeline #sidebar .groupImage .more .btn:focus {
+      box-shadow: none; }
+  #homeTimeline .textContent {
+    padding: 5px 24px; }
+    #homeTimeline .textContent span:nth-child(1) {
+      margin-top: 30px;
+      font-weight: bold;
+      font-size: 16px; }
+    #homeTimeline .textContent span {
+      margin-bottom: 20px;
+      border-bottom: 1px solid #70203e;
+      font-weight: 600;
+      font-size: 14px; }
+    #homeTimeline .textContent span:nth-child(4) {
+      font-weight: bold;
+      font-size: 16px;
+      margin: 35px 0 25px; }
+  #homeTimeline #content .line {
+    border-bottom: 1px solid;
+    margin: 50px 0; }
+  #homeTimeline #content .contentHead {
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    margin: 70px 0;
+    padding: 5px 10px; }
+    #homeTimeline #content .contentHead a {
+      color: #70203e;
+      text-decoration: none; }
+    #homeTimeline #content .contentHead i {
+      padding-right: 10px; }
+  #homeTimeline #content .contentBorder {
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 20px 0 30px; }
+    #homeTimeline #content .contentBorder .profile {
+      margin-left: 20px;
+      margin-right: 20px; }
+      #homeTimeline #content .contentBorder .profile .profileImage {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: url("../img/profile.jpg");
+        background-size: cover;
+        border: 1px solid grey; }
+      #homeTimeline #content .contentBorder .profile .profileName {
+        padding-left: 15px; }
+        #homeTimeline #content .contentBorder .profile .profileName .name {
+          margin-bottom: 5px;
+          font-weight: bold; }
+        #homeTimeline #content .contentBorder .profile .profileName .date {
+          font-size: 13px; }
+    #homeTimeline #content .contentBorder .profileHead {
+      padding: 15px 0;
+      margin-left: 20px;
+      margin-right: 20px; }
+    #homeTimeline #content .contentBorder .carousel .carousel-indicators li {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%; }
+      #homeTimeline #content .contentBorder .carousel .carousel-indicators li:hover {
+        cursor: pointer; }
+    #homeTimeline #content .contentBorder .likeShare {
+      margin-left: 20px;
+      margin-right: 20px;
+      padding-top: 15px; }
+      #homeTimeline #content .contentBorder .likeShare a {
+        color: #70203e;
+        text-decoration: none; }
+      #homeTimeline #content .contentBorder .likeShare .like {
+        margin-right: 25px; }
+        #homeTimeline #content .contentBorder .likeShare .like .iconLike {
+          border: 2px solid #70203e;
+          width: 30px;
+          height: 30px;
+          border-radius: 50%; }
+          #homeTimeline #content .contentBorder .likeShare .like .iconLike i {
+            padding-left: 5px;
+            padding-top: 6px; }
+      #homeTimeline #content .contentBorder .likeShare .iconShare i {
+        padding-left: 4.5px;
+        transform: rotate(180deg); }
+    #homeTimeline #content .contentBorder .commentBlock {
+      margin-left: 20px;
+      margin-right: 20px;
+      padding: 0 15px; }
+      #homeTimeline #content .contentBorder .commentBlock .commentInput {
+        margin-bottom: 15px; }
+        #homeTimeline #content .contentBorder .commentBlock .commentInput .text-field {
+          margin: 0 auto;
+          padding: 10px 0; }
+          #homeTimeline #content .contentBorder .commentBlock .commentInput .text-field .inputHeight {
+            padding: 5px 14px;
+            font-size: 13px;
+            color: #70203e;
+            border-radius: 15px; }
+      #homeTimeline #content .contentBorder .commentBlock .comments .profileImage {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: url("../img/profile.jpg");
+        background-size: cover;
+        border: 1px solid grey; }
+      #homeTimeline #content .contentBorder .commentBlock .comments .profileName {
+        padding-top: 15px;
+        padding-left: 0; }
+      #homeTimeline #content .contentBorder .commentBlock .comments .comment {
+        margin-top: 15px; }
+        #homeTimeline #content .contentBorder .commentBlock .comments .comment p {
+          line-height: 20px; }
+
+.createGroupHeaderContainer {
+  width: 30%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: 5%; }
+  .createGroupHeaderContainer h1 {
+    color: #70203e;
+    border-bottom: 1px gray solid; }
+
+.createGroupFormLabel {
+  color: #70203e;
+  font-size: 20px; }
+
+.createGroupInputText {
+  border: none;
+  border-bottom: 1px #70203e solid;
+  border-radius: 0;
+  outline-color: none;
+  color: #70203e;
+  outline: none !important; }
+  .createGroupInputText:focus {
+    outline-width: 0 !important;
+    outline: none !important;
+    border-color: #70203e !important;
+    box-shadow: none; }
+
+.createGroupCheckBox {
+  margin-left: 5px !important;
+  border: 1px red solid; }
+
+.createGroupAddPictureInput {
+  border: none; }
+
+.createGroupChooseImageLabel {
+  border-radius: 15px;
+  border: 1px #70203e solid;
+  font-size: 20px;
+  padding-left: 18px; }
+
+.formSubmitContainer {
+  margin: 0 auto;
+  margin-top: 5%; }
+
+.mrg-top-less {
+  margin-top: 4%; }
+
+.createGroupCreateSubmit {
+  border-radius: 15px;
+  border: 1px #70203e solid;
+  font-size: 20px;
+  font-weight: bold;
+  color: #70203e; }
+
+.radio {
+  margin: 0.5rem; }
+  .radio input[type="radio"] {
+    position: absolute;
+    opacity: 0; }
+    .radio input[type="radio"] + .radio-label {
+      color: #70203e; }
+      .radio input[type="radio"] + .radio-label:before {
+        content: '';
+        background: #f4f4f4;
+        border-radius: 100%;
+        border: 5px solid #70203e;
+        display: inline-block;
+        width: 1.6em;
+        height: 1.6em;
+        position: relative;
+        top: -0.2em;
+        margin-right: 1em;
+        vertical-align: top;
+        cursor: pointer;
+        text-align: center;
+        transition: all 250ms ease; }
+    .radio input[type="radio"]:checked + .radio-label:before {
+      background-color: #70203e;
+      box-shadow: inset 0 0 0 4px #f4f4f4; }
+    .radio input[type="radio"]:focus + .radio-label:before {
+      outline: none;
+      border-color: #70203e; }
+
+#groups {
+  color: #70203e;
+  margin-top: 20px; }
+  #groups .yourGroups {
+    width: 100%; }
+    #groups .yourGroups .yourGroupsHead {
+      width: 100%;
+      margin: 30px 0; }
+      #groups .yourGroups .yourGroupsHead .addIcon {
+        text-align: center;
+        font-size: 20px;
+        line-height: 22px;
+        border: 1px solid #70203e;
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+        margin-left: 25px; }
+      #groups .yourGroups .yourGroupsHead p {
+        font-size: 15px; }
+      #groups .yourGroups .yourGroupsHead .headtext {
+        border-bottom: 1px solid gray; }
+    #groups .yourGroups .yourGroupsBody {
+      width: 100%;
+      margin-top: 50px;
+      margin: 30 auto; }
+      #groups .yourGroups .yourGroupsBody .cicleItem {
+        width: 200px;
+        margin: 0 auto;
+        height: 200px;
+        border-radius: 100%;
+        border: 1px solid #70203e; }
+        #groups .yourGroups .yourGroupsBody .cicleItem img {
+          border: 1px solid;
+          width: 95%;
+          height: 95%;
+          border-radius: 100%;
+          margin: 5px; }
+      #groups .yourGroups .yourGroupsBody .groupinfo p {
+        font-size: 18px; }
+      #groups .yourGroups .yourGroupsBody .groupinfo .groupname {
+        border-bottom: 1px solid;
+        width: 30%;
+        margin: 5px auto;
+        height: 30px; }
+
+.mesagebox {
+  margin: 20px 0;
+  color: #70203e; }
+  .mesagebox .scrollbar::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    background-color: #F5F5F5; }
+  .mesagebox .scrollbar::-webkit-scrollbar {
+    width: 7px;
+    background-color: #F5F5F5; }
+  .mesagebox .scrollbar::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #70203e; }
+  .mesagebox .profileSide {
+    border-right: 1px solid;
+    width: 100%;
+    height: 700px;
+    overflow-y: scroll;
+    overflow-x: hidden; }
+    .mesagebox .profileSide .profile {
+      width: 100%;
+      height: 150px; }
+      .mesagebox .profileSide .profile .profileImage {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%; }
+        .mesagebox .profileSide .profile .profileImage img {
+          border-radius: 100%;
+          width: 100%;
+          height: 100%; }
+      .mesagebox .profileSide .profile .profileName p {
+        font-size: 22px; }
+    .mesagebox .profileSide .media .mediaImage {
+      margin-top: 20px;
+      width: 100%;
+      height: 100px;
+      border-radius: 13px; }
+      .mesagebox .profileSide .media .mediaImage img {
+        width: 100%;
+        border-radius: 10px;
+        height: 100%; }
+  .mesagebox .mesageSide {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    overflow-y: auto; }
+    .mesagebox .mesageSide .mesageLeft {
+      margin-top: 20px; }
+      .mesagebox .mesageSide .mesageLeft .profileImageLeft {
+        margin-top: 10px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%; }
+        .mesagebox .mesageSide .mesageLeft .profileImageLeft img {
+          border-radius: 100%;
+          width: 100%;
+          height: 100%; }
+    .mesagebox .mesageSide .mesageRight {
+      margin-top: 20px;
+      margin-bottom: 20px; }
+      .mesagebox .mesageSide .mesageRight .profileImageLeft {
+        margin-top: 5px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%; }
+        .mesagebox .mesageSide .mesageRight .profileImageLeft img {
+          border-radius: 100%;
+          width: 100%;
+          height: 100%; }
+  .mesagebox .createMesage {
+    width: inherit;
+    position: relative; }
+    .mesagebox .createMesage .inputcreate {
+      width: 47.5%;
+      position: fixed;
+      right: 0;
+      bottom: 1%;
+      left: 25.5%;
+      z-index: 1030; }
+  .mesagebox .mesaggingPeopleSide {
+    width: 100%;
+    height: 700px;
+    overflow-y: scroll;
+    overflow-x: hidden; }
+    .mesagebox .mesaggingPeopleSide .profile {
+      margin-top: 20px;
+      width: 100%;
+      height: 80px;
+      border-bottom: 1px solid; }
+      .mesagebox .mesaggingPeopleSide .profile .profileImage {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%; }
+        .mesagebox .mesaggingPeopleSide .profile .profileImage img {
+          border-radius: 100%;
+          width: 100%;
+          height: 100%; }
+      .mesagebox .mesaggingPeopleSide .profile .profileName p {
+        font-size: 16px;
+        margin: 0px;
+        padding: 0px; }
+
+.profileSettings {
+  color: #70203e; }
+  .profileSettings .settingsSide {
+    height: 550px;
+    border-right: 1px solid gray; }
+    .profileSettings .settingsSide .generalSettings {
+      height: 70px;
+      margin-left: -8px; }
+      .profileSettings .settingsSide .generalSettings button {
+        color: #70203e;
+        width: 100%;
+        height: 100%;
+        border: none;
+        background-color: transparent; }
+        .profileSettings .settingsSide .generalSettings button i {
+          font-size: 15px;
+          float: left;
+          margin: 6px 10px; }
+        .profileSettings .settingsSide .generalSettings button h3 {
+          font-size: 20px;
+          float: left; }
+  .profileSettings #profileSettings {
+    margin-top: 50px;
+    display: block; }
+    .profileSettings #profileSettings .profileInputs {
+      margin: 20px 0;
+      width: 60%; }
+      .profileSettings #profileSettings .profileInputs .profileInput {
+        margin: 20px 0;
+        border-bottom: 1px solid;
+        width: 100%; }
+        .profileSettings #profileSettings .profileInputs .profileInput h5 {
+          display: inline-block; }
+        .profileSettings #profileSettings .profileInputs .profileInput input {
+          border: none;
+          width: 52%;
+          margin: 0 57px; }
+      .profileSettings #profileSettings .profileInputs .profileInputFullname {
+        margin: 20px 0;
+        border-bottom: 1px solid;
+        width: 100%; }
+        .profileSettings #profileSettings .profileInputs .profileInputFullname h5 {
+          display: inline-block; }
+        .profileSettings #profileSettings .profileInputs .profileInputFullname input {
+          border: none;
+          width: 52%;
+          margin: 0 57px; }
+      .profileSettings #profileSettings .profileInputs .profileInputEmail {
+        margin: 20px 0;
+        border-bottom: 1px solid;
+        width: 100%; }
+        .profileSettings #profileSettings .profileInputs .profileInputEmail h5 {
+          display: inline-block; }
+        .profileSettings #profileSettings .profileInputs .profileInputEmail input {
+          border: none;
+          width: 42%;
+          margin: 0 102px; }
+      .profileSettings #profileSettings .profileInputs .profileInputPassword {
+        margin: 20px 0;
+        border-bottom: 1px solid;
+        width: 100%; }
+        .profileSettings #profileSettings .profileInputs .profileInputPassword h5 {
+          display: inline-block; }
+        .profileSettings #profileSettings .profileInputs .profileInputPassword input {
+          border: none;
+          width: 50%;
+          margin: 0 65px; }
+      .profileSettings #profileSettings .profileInputs .profileInputRePassword {
+        margin: 20px 0;
+        border-bottom: 1px solid;
+        width: 100%; }
+        .profileSettings #profileSettings .profileInputs .profileInputRePassword h5 {
+          display: inline-block; }
+        .profileSettings #profileSettings .profileInputs .profileInputRePassword input {
+          border: none;
+          width: 56%;
+          margin: 0 34px; }
+  .profileSettings #blockingSettings {
+    margin-top: 30px;
+    display: none;
+    width: 100%;
+    height: 500px; }
+    .profileSettings #blockingSettings .blockedPeople {
+      width: 100%;
+      margin: 20px 0; }
+      .profileSettings #blockingSettings .blockedPeople .cicleItem {
+        float: left;
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        border: 1px solid #70203e; }
+        .profileSettings #blockingSettings .blockedPeople .cicleItem img {
+          border: 1px solid;
+          width: 95%;
+          height: 95%;
+          border-radius: 100%;
+          margin: 2.6px; }
+      .profileSettings #blockingSettings .blockedPeople .profileName {
+        float: left;
+        margin: 33px 23px;
+        border-bottom: 1px solid; }
+  .profileSettings #languageSettings {
+    display: none;
+    margin-top: 50px; }
+    .profileSettings #languageSettings .selectLanguage .radio {
+      margin: 0.5rem; }
+      .profileSettings #languageSettings .selectLanguage .radio input[type="radio"] {
+        position: absolute;
+        opacity: 0; }
+        .profileSettings #languageSettings .selectLanguage .radio input[type="radio"] + .radio-label:before {
+          content: '';
+          background: #f4f4f4;
+          border-radius: 100%;
+          border: 1px solid #b4b4b4;
+          display: inline-block;
+          width: 1.4em;
+          height: 1.4em;
+          position: relative;
+          top: 0.1em;
+          margin-right: 1em;
+          vertical-align: top;
+          cursor: pointer;
+          text-align: center;
+          transition: all 250ms ease; }
+        .profileSettings #languageSettings .selectLanguage .radio input[type="radio"]:checked + .radio-label:before {
+          background-color: #70203e;
+          box-shadow: inset 0 0 0 4px #f4f4f4; }
+        .profileSettings #languageSettings .selectLanguage .radio input[type="radio"]:focus + .radio-label:before {
+          outline: none;
+          border-color: #70203e; }
+        .profileSettings #languageSettings .selectLanguage .radio input[type="radio"]:disabled + .radio-label:before {
+          box-shadow: inset 0 0 0 4px #f4f4f4;
+          border-color: #b4b4b4;
+          background: #b4b4b4; }
+        .profileSettings #languageSettings .selectLanguage .radio input[type="radio"] + .radio-label:empty:before {
+          margin-right: 0; }
+
+.securityCode {
+  margin-top: 150px;
+  color: #70203e; }
+  .securityCode .codeBox {
+    width: 100%;
+    height: 250px;
+    border: 1px solid;
+    box-shadow: 0 0 10px; }
+    .securityCode .codeBox .codeBoxHeader {
+      padding: 10px 0;
+      border-bottom: 1px solid;
+      width: 80%;
+      margin: 15px auto; }
+    .securityCode .codeBox .codeBoxBody {
+      width: 80%;
+      margin: 0px auto; }
+      .securityCode .codeBox .codeBoxBody .codeboxInputs {
+        margin: 30px auto;
+        width: 100%; }
+        .securityCode .codeBox .codeBoxBody .codeboxInputs .EnterCode {
+          width: 45%;
+          float: left;
+          margin-left: 40px; }
+        .securityCode .codeBox .codeBoxBody .codeboxInputs .continue {
+          width: 35%;
+          float: left;
+          background-color: #70203e;
+          color: white;
+          margin-left: 10px; }
+
+.followersSectionMyProfilePic {
+  margin-top: 20px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  padding-bottom: 10px; }
+  .followersSectionMyProfilePic img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; }
+
+.followersSectionMyInfoUl li:last-child {
+  border: none; }
+.followersSectionMyInfoUl li {
+  list-style-type: none;
+  width: 120px;
+  border-bottom: 1px black solid;
+  margin-bottom: 2px;
+  text-align: center; }
+  .followersSectionMyInfoUl li i {
+    font-size: 28px;
+    color: #70203e;
+    margin-top: 7px; }
+  .followersSectionMyInfoUl li hr {
+    width: 80%;
+    margin-left: 0px;
+    margin: 3px; }
+  .followersSectionMyInfoUl li span {
+    font-size: 12px;
+    text-align: center;
+    color: #70203e;
+    font-weight: bold; }
+
+.followersSectionHeader {
+  text-align: center;
+  margin-top: 30%; }
+  .followersSectionHeader h1 {
+    color: #70203e; }
+
+.followersSectionFollowers hr {
+  margin-top: 8px;
+  margin-bottom: 12px; }
+.followersSectionFollowers ul {
+  display: inline-block; }
+  .followersSectionFollowers ul li {
+    list-style-type: none; }
+    .followersSectionFollowers ul li button {
+      color: #70203e;
+      border-radius: 10px;
+      background-color: white;
+      border: 1px gray solid; }
+.followersSectionFollowers img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 20%; }
+.followersSectionFollowers span {
+  font-size: 20px;
+  color: #70203e;
+  margin-bottom: 50px; }
+
+.mrg-top {
+  margin-top: 10%; }
+
+.mrg-bot {
+  margin-bottom: 50px; }
+
+#following .followersSectionMyProfilePic {
+  margin-top: 20px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  padding-bottom: 10px; }
+  #following .followersSectionMyProfilePic img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; }
+#following .followersSectionMyInfoUl li:last-child {
+  border: none; }
+#following .followersSectionMyInfoUl li {
+  list-style-type: none;
+  width: 120px;
+  border-bottom: 1px black solid;
+  margin-bottom: 2px;
+  text-align: center; }
+  #following .followersSectionMyInfoUl li i {
+    font-size: 28px;
+    color: #70203e;
+    margin-top: 7px; }
+  #following .followersSectionMyInfoUl li hr {
+    width: 80%;
+    margin-left: 0px;
+    margin: 3px; }
+  #following .followersSectionMyInfoUl li span {
+    font-size: 12px;
+    text-align: center;
+    color: #70203e;
+    font-weight: bold; }
+#following .followersSectionHeader {
+  text-align: center;
+  margin-top: 30%; }
+  #following .followersSectionHeader h1 {
+    color: #70203e; }
+#following .followersSectionFollowers hr {
+  margin-top: 8px;
+  margin-bottom: 12px; }
+#following .followersSectionFollowers ul {
+  display: inline-block; }
+  #following .followersSectionFollowers ul li {
+    list-style-type: none; }
+    #following .followersSectionFollowers ul li button {
+      color: #70203e;
+      border-radius: 10px;
+      background-color: white;
+      border: 1px gray solid; }
+#following .followersSectionFollowers img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 20%; }
+#following .followersSectionFollowers span {
+  font-size: 20px;
+  color: #70203e;
+  margin-bottom: 50px; }
+#following .mrg-top {
+  margin-top: 10%; }
+#following .mrg-bot {
+  margin-bottom: 50px; }
+
+.forgotPasswordSignUp {
+  margin-top: 24%; }
+
+.ladyStoreImgContainerLeft {
+  margin-left: 10%; }
+  .ladyStoreImgContainerLeft img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px; }
+
+.ladyStoreContentHeaderRight {
+  border-bottom: 1px gray solid;
+  width: 21%;
+  color: #70203e; }
+
+.ladyStoreContentTextRight {
+  margin-right: 10%; }
+  .ladyStoreContentTextRight p {
+    color: #70203e; }
+
+.ladyStoreImgContainerRight {
+  margin-left: 30%; }
+  .ladyStoreImgContainerRight img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px; }
+
+.ladyStoreContentHeaderLeft {
+  margin-left: 10%;
+  border-bottom: 1px gray solid;
+  width: 21%;
+  color: #70203e; }
+
+.ladyStoreContentTextLeft {
+  margin-left: 10%; }
+  .ladyStoreContentTextLeft p {
+    color: #70203e; }
+
+.mrg-top-store {
+  margin-top: 6%; }
+
+/*# sourceMappingURL=base.css.map */

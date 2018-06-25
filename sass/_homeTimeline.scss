@@ -1,0 +1,226 @@
+#homeTimeline {
+    a {
+        color: $reng;
+        text-decoration: none;
+    }
+    color: $reng;
+    padding: 25px 0 30px;
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #sidebar {
+        .groupImage {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 1px solid $reng;
+            margin: 0 33.3%;
+            .bos {
+                width: 92px;
+                height: 92px;
+                margin: 3px;
+                border-radius: 50%;
+                background: url("../img/profile.jpg");
+                background-size: cover;
+            }
+            .more {
+                .dropright {
+                    .dropdown-toggle::after {
+                        display: none;
+                    }
+                    .dropdown-menu {
+                        position: relative;
+                        min-width: 75px;
+                        padding: 0;
+                        border-radius: 8px;
+                        border: 1px solid $reng;
+                        box-shadow: 5px 5px 10px #888;
+                        .leave {
+                            text-align: right;
+                            width: 50px;
+                            margin-left: 20px;
+                        }
+                        .iconLeave {
+                            position: absolute;
+                            top: 30%;
+                            padding: 0 10px;
+                            i {
+                                color: $reng;
+                                font-size: 18px;
+                                transform: rotate(90deg);
+                            }
+                        }
+                    }
+                }
+                button {
+                    border: none;
+                    position: absolute;
+                    top: -20px;
+                    right: -100px;
+                    background-color: white;
+                    padding: 0;
+                    line-height: 0;
+                    i {
+                        color: $reng;
+                    }
+                }
+                .btn:focus {
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+    
+    .textContent {
+        padding: 5px 24px;
+        span:nth-child(1) {
+            margin-top: 30px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        span {  
+            margin-bottom: 20px;
+            border-bottom: 1px solid $reng;
+            font-weight: 600;
+            font-size: 14px;
+        }
+        span:nth-child(4) {   
+            font-weight: bold;
+            font-size: 16px;
+            margin: 35px 0 25px;
+        }
+    }
+    #content {
+        .line {
+            border-bottom: 1px solid;
+            margin: 50px 0;
+        }
+        .contentHead {
+            border-bottom: 1px solid;
+            border-top: 1px solid;
+            margin: 70px 0;
+            padding: 5px 10px;
+            a {
+                color: $reng;
+                text-decoration: none;
+            }
+            i {
+                padding-right: 10px;
+            }
+        }
+        .contentBorder {
+            border: 1px solid;
+            border-radius: 15px;
+            padding: 20px 0 30px;
+            .profile {
+                margin-left: 20px;
+                margin-right: 20px;
+                .profileImage {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    background: url("../img/profile.jpg");
+                    background-size: cover;
+                    border: 1px solid grey;
+                }
+                .profileName {
+                    padding-left: 15px;
+                    .name {
+                        margin-bottom: 5px;
+                        font-weight: bold;
+                    }
+                    .date {
+                        font-size: 13px;
+                    }
+                }
+            }
+            .profileHead {
+                padding: 15px 0;
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+            .carousel {
+                .carousel-indicators {
+                    li {
+                        width: 10px;
+                        height: 10px;
+                        border-radius: 50%;
+                        &:hover {
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+            .likeShare {
+                margin-left: 20px;
+                margin-right: 20px;
+                padding-top: 15px;
+                a {
+                    color: $reng;
+                    text-decoration: none;
+                }
+                .like {
+                    margin-right: 25px;
+                    .iconLike {
+                        border: 2px solid $reng;
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 50%;
+                        i {
+                            padding-left: 5px;
+                            padding-top: 6px;
+                        }
+                    }
+                }
+                .iconShare {
+                    i {
+                        padding-left: 4.5px;
+                        transform: rotate(180deg);
+                    }
+                }
+            }
+            .commentBlock {
+                margin-left: 20px;
+                margin-right: 20px;
+                padding: 0 15px;
+                .commentInput {
+                    margin-bottom: 15px;
+                    .text-field {
+                        margin: 0 auto;
+                        padding: 10px 0;
+                        .inputHeight {
+                            padding: 5px 14px;
+                            font-size: 13px;
+                            color: $reng;
+                            border-radius: 15px;
+                        }
+                    }
+                }
+                .comments {
+                    .profileImage {
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50%;
+                        background: url("../img/profile.jpg");
+                        background-size: cover;
+                        border: 1px solid grey;
+                    }
+                    .profileName {
+                        padding-top: 15px;
+                        padding-left: 0;
+                    }
+                    .comment {
+                        margin-top: 15px;
+                        p {
+                            line-height: 20px;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+    
+}
